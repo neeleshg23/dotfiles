@@ -1,0 +1,46 @@
+Host nuc  
+  HostName 192.168.1.2
+  User neelesh
+  ProxyJump tarim
+  IdentityFile ~/.ssh/tarim_id_rsa 
+Host carc
+  HostName discovery.usc.edu
+  User neeleshg
+  ServerAliveInterval 600
+  TCPKeepAlive no
+Host sutlej
+  HostName sutlej.usc.edu
+  User neelesh
+  ServerAliveInterval 600
+  TCPKeepAlive no
+Host ganges
+  HostName ganges.usc.edu
+  User neelesh
+  ServerAliveInterval 600
+  TCPKeepAlive no
+Host indus
+  HostName indus.usc.edu
+  User neelesh
+  ServerAliveInterval 600
+  TCPKeepAlive no
+Host huaihe 
+  HostName huaihe.usc.edu
+  User neelesh
+  ServerAliveInterval 600
+  TCPKeepAlive no
+Host ganges
+  HostName ganges.usc.edu
+  User neelesh
+  ServerAliveInterval 600
+  TCPKeepAlive no
+Host pganges
+  HostName ganges.usc.edu
+  User pengmiao
+Host tarim
+  HostName tarim.usc.edu
+  ServerAliveInterval 600
+  TCPKeepAlive no
+  User neelesh
+Host kalu
+  HostName kalu.usc.edu
+  User neel
